@@ -9,14 +9,32 @@ block variables
 //- Phần khai báo body
 block body
 	//- Bạn viết code vào đây nhớ là phải mở đầu bằng section ở mỗi khối
+.abc
+		.login-step
+			ul.list-unstyled
+				li.active
+					span 1
+				li
+					span 2
+				li
+					span 3
+		.form-login
+			.box
+				.boxinner
+					form(autocomplete="off")
+						h2 
+							span Login Page
+						.form-group
+							.boxinput
+								input#exampleInputEmail1.form-control(type="email" aria-describedby="emailHelp" autocomplete="nope")
+								label(for="exampleInputEmail1") Email address
+							small#emailHelp.form-text.text-muted We'll never share your email with anyone else.
+						.form-group
+							.boxinput
+								input#exampleInputPassword1.form-control(type="password" autocomplete="new-password")
+								label(for="exampleInputPassword1") Password
+						.form-group.form-check
+							input#exampleCheck1.form-check-input(type="checkbox")
+							label.form-check-label(for="exampleCheck1") Check me out
+						button.btn.btn-primary(type="submit") Submit
 
-
-
-	//- .togglegird
-	//- 	button#button.btn.btn-primary(type="submit") Bật/Tắt
-	//- .luoi
-	//- 	.container
-	//- 		.row
-	//- 			- for(x=1; x<13; x++)
-	//- 				.item
-	//- 					.bg

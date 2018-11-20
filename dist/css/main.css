@@ -6535,6 +6535,6 @@ main {
         box-shadow: none; }
         .abc .form-login .box .boxinput.active input ~ label {
           transform: scale(0.8) translate(-10px, -20px);
-          color: blue; }
+          color: red; }
 
 /*# sourceMappingURL=main.css.map */

@@ -33,7 +33,7 @@ $(function () {
 });
 
 ////////////////////// FOOTER /////////////////
-$('#phuongsucvat').on('change', function (e) {
+$('#phuong').on('change', function (e) {
 				// var m = $(e).attr("data-bg")
 				// var n = $(e).attr("data-bo")
 				$('h5').css({

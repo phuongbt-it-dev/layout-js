@@ -9,13 +9,14 @@ block variables
 //- Phần khai báo body
 block body
 	//- Bạn viết code vào đây nhớ là phải mở đầu bằng section ở mỗi khối
-	- for( x=1 ; x<30 ; x++)
-		p Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus sint vitae dignissimos a aliquid unde ea omnis sit voluptate sunt, fuga ipsum totam voluptas vel nisi eius, aspernatur blanditiis quo?
 	.container
 		.row
 			.col
+				- for( x=1 ; x<30 ; x++)
+					p Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus sint vitae dignissimos a aliquid unde ea omnis sit voluptate sunt, fuga ipsum totam voluptas vel nisi eius, aspernatur blanditiis quo?
 				.item(data-count="300" data-from="10")
 				.item(data-count="1000" data-from="150")
 				.item(data-count="5005" data-from="500")
-	- for( x=1 ; x<20 ; x++)
-		p Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus sint vitae dignissimos a aliquid unde ea omnis sit voluptate sunt, fuga ipsum totam voluptas vel nisi eius, aspernatur blanditiis quo
+				- for( x=1 ; x<20 ; x++)
+					p Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus sint vitae dignissimos a aliquid unde ea omnis sit voluptate sunt, fuga ipsum totam voluptas vel nisi eius, aspernatur blanditiis quo?
+	.item(bg-img-responsive="./img/clients_1.png")

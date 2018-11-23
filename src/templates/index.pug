@@ -12,31 +12,8 @@ block body
 	section.abc
 		.container
 			.row
-				.col
-					.tren-duoi
-						.row.heit
-							.col-xs-12.col-sm-4.block
-								.item
-									i.fa.fa-facebook
-									.countup(data-count="300" data-from="10")
-									h4 fsalfsajdfhjaskdhjk loremdsafdasf
-								.item.aaa
-									i.fa.fa-google
-									.countup(data-count="1000" data-from="150")
-									h4 fsalfsajdfhjaskdhjk
-							.col-xs-12.col-sm-4.block
-								.item.bbb
-									.chimbay
-										i.fa.fa-twitter
-										.countup(data-count="1000" data-from="150")
-										h4 fsalfsajdfhjaskdhjk lorem
-							.col.col-sm-4.block
-								.item
-									i.fa.fa-youtube
-									.countup(data-count="5005" data-from="500")
-									h4 fsalfsajdfhjaskdhjk
-								.item.acb
-									i.fa.fa-google
-									.countup(data-count="5005" data-from="500")
-									h4 fsalfsajdfhjaskdhjk
-
+				- for (x=1 ; x<20 ; x++)
+					.col-12.col-sm-6.col-md-3.abc
+						.blockimg
+							figure
+								img.img-fluid(src="./img/home_news_1.jpg", alt="")

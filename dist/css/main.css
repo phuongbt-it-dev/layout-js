@@ -6339,23 +6339,7 @@ footer img {
 main {
   height: 100%; }
 
-.abc {
-  height: 100%;
-  display: flex;
-  align-items: center;
-  text-align: center; }
-  .abc .item {
-    border-bottom: 1px solid black;
-    padding: 2rem; }
-    .abc .item i {
-      font-size: 2rem; }
-  .abc .acb:last-child {
-    border-bottom: 0; }
-  @media (min-width: 576px) {
-    .abc .tren-duoi {
-      border-top: 1px solid #000;
-      border-bottom: 1px solid #000; }
-    .abc .acb:last-child, .abc .aaa:last-child, .abc .bbb:last-child {
-      border-bottom: 0; } }
+.abc .abc {
+  border: 1px solid #000; }
 
 /*# sourceMappingURL=main.css.map */

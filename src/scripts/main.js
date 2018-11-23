@@ -20,7 +20,7 @@ function getCountUP() {
 
 		// console.log(elm, docS, docH)
 		$(this).text(f)
-		if (elm < ((docS + docH) - 200) && !run) {
+		if (elm < ((docS + docH)) && !run) {
 			// $(this).text(num)
 			var $this = $(this),
 				countTo = num,
@@ -45,3 +45,19 @@ function getCountUP() {
 		}
 	})
 }
+
+
+$(document).ready(function(){
+	var a = $('.abc .heit').height()
+	var b = a/2
+	console.log(a, b)
+	$('.abc .block:first-child .item').css("height", b)
+	$('.abc .block:last-child .item').css("height", b)
+	$('.abc .item.bbb').css({
+		"height": a,
+		"display" : "flex",
+		"align-items" : "center"
+	})
+})
+
+

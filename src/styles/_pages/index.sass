@@ -1,5 +1,57 @@
 main
 	height: 100%
 .abc
-	.abc
-		border: 1px solid #000
+	position: relative
+	.aaa
+		border-top: 1px solid #000
+		border-left: 1px solid #000
+		.bbb
+			overflow: hidden
+			+pad(4rem 2rem 2rem 2rem)
+			border-right: 1px solid #000
+			border-bottom: 1px solid #000
+			.sales
+				.hot
+					width: 3rem
+					height: 3rem
+					border-radius: 50%
+					display: flex
+					justify-content: center
+					align-items: center
+					color: white
+					+pos(abs, .5rem null null 1rem)
+					background: red
+					+ .hot
+						+pos(abs, .5rem null null 4rem)
+						background: green
+						+mar(0 .5rem)
+				.sale
+					background: green
+					color: white
+					position: absolute
+					top: 10px
+					right: -30px
+					padding: .5rem 2rem
+					transform: rotate(45deg)
+			.details
+				display: flex
+				justify-content: center
+				flex-direction: row
+				.b1, .b2
+					margin-right: 1rem
+					margin-top: 1rem
+					&:focus
+						outline: none
+						box-shadow: none
+			+media-breakpoint-up(md)
+				.details
+					+pos(abs, 50% null null 50%)
+					transform: translate(-50%, -50%)
+					flex-direction: column
+					opacity: 0
+				&:hover
+					.details
+						opacity: 1
+						transition: .2s all ease-in-out
+
+

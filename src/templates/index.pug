@@ -8,14 +8,15 @@ block variables
 
 //- Phần khai báo body
 block body
-	//- Bạn viết code vào đây nhớ là phải mở đầu bằng section ở mỗi khối
 	.seo-gen
 		.container.mt-3
 			.row
 				.col
 					h1 SEO GEN
-					hr
-
-			.row
-				.col
+					hr 
+			.row 
+				.col 
 					#genform
+					button.btn.btn-primary#seo-button(type="button" onclick="javascript:appSEO.resultForm(this)") Tạo SEO
+				.col
+					textarea.form-control#result(cols="30", rows="10")
